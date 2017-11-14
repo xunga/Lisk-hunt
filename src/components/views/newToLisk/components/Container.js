@@ -12,18 +12,12 @@ class Container extends Component {
     render(){
         const {text, title} = this.props;
         return (
-            <div className="newtolisk--container">
-                <div className="newtolisk--content-wrap">
-                    <section>
-
-                    </section>
-                    <section>
-                        <h2>{title}</h2>
-                        <p>{text}</p>
-                        {this.renderUrl()}
-                    </section>
-                </div>
+            <div className="newtolisk--section">
+                <h2>{title}</h2>
+                <p>{text}</p>
+                {this.renderUrl()}
             </div>
+
         );
     }
 };

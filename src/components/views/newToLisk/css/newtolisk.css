@@ -6,28 +6,35 @@
 }
 
 .newtolisk--wrap{
-    width: 75%;
+    width: 70%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 100px;
+    display: flex;
+    align-items: flex-start;
 }
-
-
 
 .newtolisk--container{
-    margin-bottom: 100px;
-}
-
-.newtolisk--content-wrap{
     width: 100%;
-    display: flex;
-    align-items: center;
+    height: auto;
+    margin-bottom: 150px;
 }
 
-.newtolisk--content-wrap section{
-    flex: 1;
+.newtolisk--container{
+    width: 50%;
+    height: auto;
+    margin-bottom: 150px;
 }
 
-.newtolisk--container h1, h2{
+.newtolisk--container:first-child{
+    width: 45%;
+    margin-right: 5%;
+}
+
+.newtolisk--section{
+    margin-bottom: 150px;
+}
+
+.newtolisk--section h1, h2{
     color: #000;
     font-weight: 700;
     font-size: 1.3em;
@@ -36,13 +43,18 @@
 
 .hero.is-info .newtolisk a:not(.button) {
     color: #0043ff;
+    font-weight: 500;
 }
 
-.newtolisk--container p{
+.newtolisk--section p{
     color: #000;
     line-height: 1.8em;
     margin-bottom: 25px;
     font-size: 0.9em;
     font-weight: 300;
+    text-align: justify;
 }
 
+.men{
+    border-right: 1px solid #888;
+}

@@ -1,0 +1,48 @@
+.newtolisk{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 100px;
+}
+
+.newtolisk--wrap{
+    width: 75%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+
+.newtolisk--container{
+    margin-bottom: 100px;
+}
+
+.newtolisk--content-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.newtolisk--content-wrap section{
+    flex: 1;
+}
+
+.newtolisk--container h1, h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.hero.is-info .newtolisk a:not(.button) {
+    color: #0043ff;
+}
+
+.newtolisk--container p{
+    color: #000;
+    line-height: 1.8em;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+

@@ -4,15 +4,15 @@ class Menu extends Component {
 
     render(){
         return (
-            <div className="newtolisk--container men">
-                <ul>
-                    <li><a>New to lisk</a></li>
-                    <li><a>Where can i purchase Lisk</a></li>
-                    <li><a>Delegates proof of stake</a></li>
-                    <li><a>What is a active or standby delegate</a></li>
-                    <li><a>How do i become a delegate?</a></li>
-                    <li><a>What is forging?</a></li>
-                </ul>
+            <div className="newtolisk--container">
+                <div className="support-menu">
+                    <div className="content-label-wrap support-wrap">
+                        <div className="content-label">SUPPORT</div>
+                    </div>
+                    <ul>
+                        <li><a>New to lisk</a></li>
+                    </ul>
+                </div>
             </div>
 
         );

@@ -8,7 +8,7 @@
 .newtolisk--wrap{
     width: 70%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 150px;
     display: flex;
     align-items: flex-start;
 }
@@ -26,12 +26,14 @@
 }
 
 .newtolisk--container:first-child{
-    width: 45%;
-    margin-right: 5%;
+    width: 35%;
+    margin-right: 15%;
 }
 
 .newtolisk--section{
-    margin-bottom: 150px;
+    margin-bottom: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #eee;
 }
 
 .newtolisk--section h1, h2{
@@ -49,12 +51,21 @@
 .newtolisk--section p{
     color: #000;
     line-height: 1.8em;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 0.9em;
     font-weight: 300;
     text-align: justify;
 }
 
-.men{
-    border-right: 1px solid #888;
+.support-menu{
+    width: 75%;
+}
+
+.support-wrap{
+    margin-bottom: 25px;
+}
+
+.support-menu ul{
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
 }

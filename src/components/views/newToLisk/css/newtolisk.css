@@ -28,6 +28,8 @@
 .newtolisk--container:first-child{
     width: 35%;
     margin-right: 15%;
+    display: flex;
+    align-items: center;
 }
 
 .newtolisk--section{
@@ -68,4 +70,9 @@
 .support-menu ul{
     padding-left: 15px;
     border-left: 1px solid #ccc;
+}
+
+.newtolisk--info-image{
+    width: 75%;
+    margin: auto;
 }

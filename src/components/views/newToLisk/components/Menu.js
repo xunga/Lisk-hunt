@@ -8,7 +8,7 @@ class Menu extends Component {
         return (
             <div className="newtolisk--container">
                 <div className="newtolisk--info-image">
-                    <img src={support_image} />
+                    <img src={support_image} alt="support"/>
                 </div>
                 {/*<div className="support-menu">
                     <div className="content-label-wrap support-wrap">

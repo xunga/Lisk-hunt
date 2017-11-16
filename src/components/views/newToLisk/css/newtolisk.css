@@ -76,3 +76,56 @@
     width: 75%;
     margin: auto;
 }
+
+@media only screen and (max-width: 1024px) {
+
+    .newtolisk{
+        padding-bottom: 50px;
+    }
+
+    .newtolisk--wrap{
+        width: 80%;
+        padding-top: 75px;
+        flex-direction: column;
+    }
+
+    .newtolisk--container{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .newtolisk--container:first-child{
+        width: 40%;
+        margin: auto;
+        margin-bottom: 75px;
+    }
+
+    .newtolisk--info-image{
+        width: 100%;
+        margin: auto;
+    }
+
+    .newtolisk--info-image img{
+        margin: auto;
+    }
+
+    .newtolisk--section h1, h2{
+        font-size: 1.1em;
+    }
+
+    .newtolisk--section p{
+        font-size: 0.9em;
+    }
+
+    .newtolisk--section{
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+    }
+
+    .newtolisk--section:last-child{
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+}
